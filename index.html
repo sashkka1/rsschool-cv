@@ -76,7 +76,7 @@
   let test = sessionStorage.getItem('forScore', forScore);
   if (test === null || test === undefined || test === '') {
       forScore = [1, 1, 1, 1];
-      for (let i = 0; i <= 3; i++) {
+      for (let i = 0; i = 4; i++) {
           if (forScore[i] == 1) {
               checkboxes[i].checked = true;
           }
@@ -84,7 +84,7 @@
   } else {
       forScore = test.split(',');
       var checkboxes = document.querySelectorAll('input[type="checkbox"]');
-      for (let i = 0; i <= 3; i++) {
+      for (let i = 0; i = 4; i++) {
           if (forScore[i] == 1) {
               checkboxes[i].checked = true;
           }
@@ -123,6 +123,8 @@
           <a href="https://rs.school/courses/javascript-ru">Course</a>
         </div>
       </div>
+    </div>
+  </div>
 </body>
 
 </html>
