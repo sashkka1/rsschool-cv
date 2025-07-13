@@ -30,7 +30,6 @@ a {
     padding-right: 5vw;
     display: flex;
     justify-content: right;
-
 }
 .right{
     width: 50vw;
@@ -52,8 +51,10 @@ a {
 
 .foto-short-description,.foto-short-description-foto{
     padding-top: 2.5vh;
-    height: 30vh;
     align-items: center;
+}
+.foto-short-description-foto{
+    height: 30vh;
 }
 
 .contacts > .right{
@@ -79,12 +80,22 @@ li{
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
+        flex-wrap: wrap;
 }
 .footer-conteiner > *{
-    /* color: black; */
     color: rgb(223, 180, 125);
 }
 
 .footer-logo{
     height: 7vh;
+}
+
+
+
+
+@media (max-width: 1100px) {
+    .foto-short-description,.foto-short-description-foto, .contacts, .description, .skills, .code-example, .education, .english{
+        align-items: center;
+        flex-direction: column;
+    }
 }
