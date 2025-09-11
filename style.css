@@ -122,9 +122,6 @@ section {
     height: 140px;
 }
 
-/* .skills h2,
-.education h2,
-.languages  */
 
 h2 {
     width: 100%;
@@ -196,11 +193,25 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* .block-GoodMathScore {
+    width: 400px;
+    height: 225px;
+    overflow: hidden;
+    margin-bottom: 20px;
+} */
+
 iframe {
     width: 1620px;
     height: 930px;
     transform: scale(0.25);
     transform-origin: 0 0;
+}
+
+.GoodMathScore {
+    padding-left: 560px;
+    width: 500px;
+    height: 900px;
+    transform: scale(0.25);
 }
 
 .education {
