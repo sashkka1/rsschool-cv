@@ -80,6 +80,7 @@ section {
 
 .head img {
     height: 80%;
+    border-radius: 10px;
 }
 
 .fio {
