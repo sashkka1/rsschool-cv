@@ -183,7 +183,7 @@ section {
 }
 
 .occupancy-js::before {
-    width: 50%;
+    width: 60%;
 }
 
 
@@ -235,13 +235,6 @@ iframe {
     transform-origin: 0 0;
 }
 
-.GoodMathScore {
-    padding-left: 560px;
-    width: 500px;
-    height: 900px;
-    transform: scale(0.25);
-}
-
 .education {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -254,14 +247,14 @@ iframe {
 }
 
 .curses {
-    padding-right: 10%;
-    width: 280px;
+    /* padding-right: 5%; */
+    width: 400px;
     display: flex;
     flex-direction: column;
 }
 
 .languages {
-    padding: 15px 50px 15px 50px;
+    padding: 0px 50px 15px 50px;
     flex-direction: column;
 }
 
